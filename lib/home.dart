@@ -126,7 +126,7 @@ class HOME extends StatelessWidget {
                   borderRadius:
                       BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
                   image: DecorationImage(
-                    image: const AssetImage('image/food.jpg'),
+                    image: const AssetImage('images/food.jpg'),
                     fit: BoxFit.cover,
                     colorFilter: new ColorFilter.mode(
                         Colors.black.withOpacity(0.48), BlendMode.dstIn),
@@ -160,7 +160,7 @@ class HOME extends StatelessWidget {
                   Container(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: const AssetImage('image/eat.png'),
+                    image: const AssetImage('images/eat.png'),
                     fit: BoxFit.fill,
                   ),
                 ),
